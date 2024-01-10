@@ -2,10 +2,9 @@ import * as React from "react"
 
 const IndexPage = () => {
   return (
-      <div>im the landing Page</div>
+      <div>Home Page</div>
   )
 }
 
 export default IndexPage
-
-export const Head = () => <title>Tintero</title>
+export const Head = () => <title>Tintero | Home</title>;

@@ -2,6 +2,8 @@ import React from "react";
 
 export default function EventsPage() {
     return (
-        <p>events page</p>
+        <p>Events Page</p>
     )
 }
+
+export const Head = () => <title>Tintero | Events</title>;
