@@ -7,4 +7,11 @@ const IndexPage = () => {
 }
 
 export default IndexPage
-export const Head = () => <title>Tintero | Home</title>;
+export const Head = () => {
+  return (
+    <>
+      <meta name="icon" href="../images/favicon.ico"/>
+      <title>Tintero | Home</title>
+    </>
+  )
+}
