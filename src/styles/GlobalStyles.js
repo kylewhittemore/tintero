@@ -1,10 +1,11 @@
 import { createGlobalStyle } from "styled-components";
+import "normalize.css";
+
 const GlobalStyles = createGlobalStyle`
     :root {
 
     }
     html {
-        background-color: #FFFFF0;
         font-size: 10px;
     }
     body {

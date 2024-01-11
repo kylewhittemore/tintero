@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from 'gatsby';
-import logo from '../images/tintero_black_logo.png';
 import styled from 'styled-components';
 
 const NavStyles = styled.nav`
@@ -10,11 +9,8 @@ const NavStyles = styled.nav`
         list-style: none;
         text-align: center;
         display: grid;
-        grid-template-columns: 1fr auto 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
-    }
-    img {
-        max-height: 50px;
     }
     hr {
 
@@ -30,12 +26,7 @@ export default function Nav() {
                     <Link to='/events'>Events</Link>
                 </li>
                 <li>
-                    <Link to='/'>
-                        <img 
-                            src={logo} 
-                            alt="Logo"
-                        />
-                    </Link>
+                    <Link to='/'>Home</Link>
                 </li>
                 <li>
                     <Link to='/contact'>Contact</Link>
