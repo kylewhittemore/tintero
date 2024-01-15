@@ -32,7 +32,7 @@ export default function Nav() {
                     <Link to='/contact'>Contact</Link>
                 </li>
             </ul>
-            <hr />
+            {/* <hr /> */}
         </NavStyles>
     )
 }
