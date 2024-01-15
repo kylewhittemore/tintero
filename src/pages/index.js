@@ -1,5 +1,6 @@
-import * as React from "react"
-import styled from "styled-components"
+import * as React from "react";
+import styled from "styled-components";
+import Hero from "../components/Hero";
 
 const BodyStyles = styled.div`
   display: flex;
@@ -15,16 +16,19 @@ const BodyStyles = styled.div`
 
 const IndexPage = () => {
   return (
-    <BodyStyles>
-        <div>
-          <p>
-            Tintero is an initiative to support literary translation and promote international literature
-            by providing translators and other literary creatives with opportunities to quiet their
-            minds, open their hearts, and connect with their vision in order to create their most
-            inspired work.
-          </p>
-      </div>
-    </BodyStyles>
+    <>
+    <Hero />
+      <BodyStyles>
+          <div>
+            <p>
+              Tintero is an initiative to support literary translation and promote international literature
+              by providing translators and other literary creatives with opportunities to quiet their
+              minds, open their hearts, and connect with their vision in order to create their most
+              inspired work.
+            </p>
+        </div>
+      </BodyStyles>
+    </>
   )
 }
 
