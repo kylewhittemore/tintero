@@ -4,7 +4,7 @@ export default function ContactPage() {
     return (
         <>
             <p>Contact Page</p>
-            <p>email <a href="mailto:kyle.whittemore@gmail.com">kyle.whittemore@gmail.com</a></p>
+            <p>email <a href="mailto:info@tintero.org">info@tintero.org</a></p>
         </>
     )
 }

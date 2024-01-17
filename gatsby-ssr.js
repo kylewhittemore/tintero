@@ -1,14 +1,15 @@
 import React from 'react';
 import Layout from './src/components/Layout';
-import WildAtlanticStyles from './src/styles/WildAtlanticStyles';
+import OpeningTheChannelStyles from './src/styles/OpeningTheChannelStyles';
 import "@fontsource/dm-sans";
 import "@fontsource/dm-sans/900.css";
 
+
 export function wrapPageElement({ element, props }) {
-  if (props.location.pathname.includes("wildatlanticretreat")) {
+  if (props.location.pathname.includes("openingthechannel")) {
     return (
       <>
-        <WildAtlanticStyles />
+        <OpeningTheChannelStyles />
         {element}    
       </>
     )

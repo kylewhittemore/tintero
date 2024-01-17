@@ -18,16 +18,15 @@ const IndexPage = () => {
   return (
     <>
     <Hero />
-      <BodyStyles>
-          <div>
-            <p>
-              Tintero is an initiative to support literary translation and promote international literature
-              by providing translators and other literary creatives with opportunities to quiet their
-              minds, open their hearts, and connect with their vision in order to create their most
-              inspired work.
-            </p>
-        </div>
-      </BodyStyles>
+    <BodyStyles>
+        <div>
+          <p>
+            Tintero supports literary translation and the promotion of international 
+            literature by providing translators and those in the literary arts with opportunities 
+            to align with their creative purpose. At the heart of Tintero’s activities is an invitation to do mindful work.
+          </p>
+      </div>
+    </BodyStyles>
     </>
   )
 }
