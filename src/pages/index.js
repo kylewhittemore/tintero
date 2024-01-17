@@ -3,22 +3,23 @@ import styled from "styled-components";
 import Hero from "../components/Hero";
 
 const BodyStyles = styled.div`
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 0px 20px 0px 20px;
+  height: 100vh;
   p {
     text-align: center;
     max-width: 700px;
-  }
+  } */
 `
 
-const IndexPage = () => {
+export default function IndexPage () {
   return (
     <>
-    <Hero />
     <BodyStyles>
+    <Hero />
         <div>
           <p>
             Tintero supports literary translation and the promotion of international 
@@ -31,12 +32,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
-export const Head = () => {
-  return (
-    <>
-      <meta name="icon" href="../images/favicon.ico"/>
-      <title>Tintero | Home</title>
-    </>
-  )
-}
+export const Head = () => {<title>Tintero | Home</title>}
