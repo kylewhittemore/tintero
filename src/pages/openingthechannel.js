@@ -8,12 +8,13 @@ import OpeningTheChannelHero from "../components/OpeningTheChannelHero";
 const PageStyles = styled.div`
     h1 {
         font-weight: 900;
-        font-size: 8rem;
+        font-size: 7rem;
         margin: 20px;
-        line-height: .90;
+        line-height: .95;
     }
     h2 {
         font-weight: normal;
+        font-size: 2.5rem;
     }
     hr {
         background-color: white;

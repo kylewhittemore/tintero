@@ -14,7 +14,7 @@ const OpeningTheChannelStyles = createGlobalStyle`
         font-size: 2rem;
         background-color: #e94f2f;
         text-align: center;
-        min-width: 370px;
+        min-width: 350px;
         padding: 20px;
     }
 `
