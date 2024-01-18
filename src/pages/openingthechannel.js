@@ -49,7 +49,7 @@ export default function OpeningTheChannelPage() {
                     <div>
                         <ul>
                             <li>Interested? <a href={brochure}>Get full details here.</a></li>
-                            <li>Questions? <a href="mailto:openingthechannel@gmail.com">Contact us.</a></li>            
+                            <li>Questions? <a href="mailto:openingthechannelretreat@gmail.com">Contact us.</a></li>            
                             <li>Ready to jump in? <a href="https://docs.google.com/forms/d/1hZ5zjfJqsdCtbLWk1EU_5UAvc6_xt781zKvJmXmtrcQ/edit?ts=65a2d514">Apply now.</a></li>            
                         </ul>
                     </div>
