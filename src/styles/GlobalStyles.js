@@ -16,10 +16,16 @@ const GlobalStyles = createGlobalStyle`
         justify-content: center;
         padding: 0px 20px 0px 20px;
         height: 100vh;
-        p {
+        /* text-align: center; */
+        /* p {
             text-align: center;
             max-width: 700px;
-        }
+        } */
+    }
+    p {
+        text-align: center;
+        max-width: 850px;
+        padding: 0px 30px;
     }
     a {
         text-decoration: underline;

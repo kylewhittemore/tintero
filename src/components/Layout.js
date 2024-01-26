@@ -10,7 +10,6 @@ export default function Layout(props) {
         <div>
             <GlobalStyles />
             <Typography />
-            {/* <Nav /> */}
             {props.children}
             <Footer />
         </div>
