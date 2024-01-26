@@ -21,6 +21,11 @@ const GlobalStyles = createGlobalStyle`
             max-width: 700px;
         }
     }
+    a {
+        text-decoration: underline;
+        color:  #221e33;
+        cursor: pointer;
+    }
 `
 
 export default GlobalStyles;

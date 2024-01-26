@@ -1,24 +1,11 @@
 import * as React from "react";
 import styled from "styled-components";
 import Hero from "../components/Hero";
-
-const BodyStyles = styled.div`
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 20px 0px 20px;
-  height: 100vh;
-  p {
-    text-align: center;
-    max-width: 700px;
-  } */
-`
+import { Link } from "gatsby";
 
 export default function IndexPage () {
   return (
     <>
-    <BodyStyles>
     <Hero />
         <div>
           <p>
@@ -27,7 +14,7 @@ export default function IndexPage () {
             to align with their creative purpose. At the heart of Tintero’s activities is an invitation to do mindful work.
           </p>
       </div>
-    </BodyStyles>
+      <p>Join us for the upcoming <Link to="/openingthechannel">Opening the Channel Retreat</Link></p>
     </>
   )
 }

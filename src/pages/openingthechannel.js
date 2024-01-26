@@ -1,8 +1,8 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import {styled, styles} from "styled-components";
+import { styled } from "styled-components";
 
-import brochure from "../PDF/opening_the_channel.pdf";
+import brochure from "../PDF/opening_the_channel_retreat.pdf";
 import OpeningTheChannelHero from "../components/OpeningTheChannelHero";
 
 const PageStyles = styled.div`
@@ -43,7 +43,7 @@ export default function OpeningTheChannelPage() {
                 <OpeningTheChannelHero />
                     <h1>Opening the Channel</h1>
                     <h2>Cloghane, Co. Kerry <span>&bull;</span> 14<sup>th</sup> - 18<sup>th</sup> March 2024</h2>
-                    <p>An Embodied Retreat for Literary Translators on Ireland's Wild Atlantic Way</p>
+                    <p>An Embodied Retreat for Wordsmiths on Ireland's Wild Atlantic Way</p>
                     <hr/>
                     <p>Connect with Your Energy & Cultivate Your Creative Practice</p>
                     <div>
