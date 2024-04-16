@@ -42,8 +42,8 @@ export default function OpeningTheChannelPage() {
             <PageStyles>
                 <OpeningTheChannelHero />
                     <h1>Opening the Channel</h1>
-                    <h2>Cloghane, Co. Kerry <span>&bull;</span> 14<sup>th</sup> - 18<sup>th</sup> March 2024</h2>
-                    <p>An Embodied Retreat for Wordsmiths on Ireland's Wild Atlantic Way</p>
+                    <h2>Cloghane, Co. Kerry <span>&bull;</span> 9<sup>th</sup> - 13<sup>th</sup> October 2024</h2>
+                    <p>An Embodied Retreat for Creatives on Ireland's Wild Atlantic Way</p>
                     <hr/>
                     <p>Connect with Your Energy & Cultivate Your Creative Practice</p>
                     <div>

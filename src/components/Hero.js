@@ -13,7 +13,7 @@ const HeroStyles = styled.div`
 export function HeroImage() {
     return (
         <StaticImage
-        src="../images/tintero_horizontal_black.png"
+        src="../images/tintero_updated_horiz2.png"
         alt="Tintero Logo"
           placeholder="blurred"
           width={850}
